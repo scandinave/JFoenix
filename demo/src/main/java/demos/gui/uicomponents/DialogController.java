@@ -8,7 +8,6 @@ import com.jfoenix.controls.JFXDialogLayout;
 import demos.Context;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Modality;
@@ -20,7 +19,6 @@ import java.util.ResourceBundle;
 
 public class DialogController implements Initializable {
 
-    public static final String CONTENT_PANE = "ContentPane";
     @FXML
     private JFXButton centerButton;
     @FXML
@@ -50,7 +48,6 @@ public class DialogController implements Initializable {
         StackPane contentPane = (StackPane)Context.getInstance().getDrawer().getChildren().get(0);
 
         centerButton.setOnAction(action -> {
-            System.out.println("action");
             dialog.setTransitionType(DialogTransition.CENTER);
             dialog.show(contentPane);
         });

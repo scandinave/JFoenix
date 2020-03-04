@@ -50,7 +50,7 @@ public class SideMenuController implements Initializable {
         menuPath.put("icons", "/fxml/ui/Icons.fxml");
         menuPath.put("listview", "/fxml/ui/ListView.fxml");
         menuPath.put("masonry", "/fxml/ui/Masonry.fxml");
-        menuPath.put("nodelist", "/fxml/ui/NodeList.fxml");
+        menuPath.put("nodeslist", "/fxml/ui/NodesList.fxml");
         menuPath.put("pickers", "/fxml/ui/Pickers.fxml");
         menuPath.put("popup", "/fxml/ui/Popup.fxml");
         menuPath.put("progressbar", "/fxml/ui/ProgressBar.fxml");
