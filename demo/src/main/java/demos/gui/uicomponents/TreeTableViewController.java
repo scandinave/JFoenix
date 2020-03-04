@@ -94,7 +94,7 @@ public class TreeTableViewController implements Initializable {
         setupCellValueFactory(ageColumn, p -> p.age.asObject());
 
         ObservableList<Person> dummyData = generateDummyData(100);
-
+        System.out.println(dummyData);
         treeTableView.setRoot(new RecursiveTreeItem<>(dummyData, RecursiveTreeObject::getChildren));
 
         treeTableView.setShowRoot(false);

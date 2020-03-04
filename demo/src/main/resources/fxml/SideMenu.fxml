@@ -27,8 +27,8 @@
         <Label fx:id="togglebutton">Toggle Button</Label>
         <Label fx:id="popup">Popup</Label>
         <Label fx:id="pickers">Pickers</Label>
-        <Label fx:id="svgLoader">SVG Loader</Label>
+        <Label fx:id="svgloader">SVG Loader</Label>
         <Label fx:id="masonry">Masonry Layout</Label>
-        <Label fx:id="nodesList">Nodes List</Label>
+        <Label fx:id="nodeslist">Nodes List</Label>
     </JFXListView>
 </StackPane>

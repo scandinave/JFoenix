@@ -23,7 +23,6 @@ public class ComboBoxController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        System.out.println(jfxComboBox);
         jfxComboBox.focusedProperty().addListener((o, oldVal, newVal) -> {
             if (!newVal) {
                 jfxComboBox.validate();
