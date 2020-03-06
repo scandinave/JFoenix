@@ -13,11 +13,20 @@ applicationDefaultJvmArgs = [
     '--add-exports=javafx.controls/com.sun.javafx.scene.control=com.jfoenix',
     '--add-exports=javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix',
     '--add-exports=javafx.controls/com.sun.javafx.scene.control.inputmap=com.jfoenix',
+    '--add-exports=javafx.controls/javafx.scene.control.skin=com.jfoenix',
     '--add-exports=javafx.base/com.sun.javafx.binding=com.jfoenix',
     '--add-exports=javafx.base/com.sun.javafx.event=com.jfoenix',
     '--add-exports=javafx.graphics/com.sun.javafx.text=com.jfoenix',
+    '--add-exports=javafx.controls/javafx.scene.control.skin=com.jfoenix',
     '--add-opens=javafx.graphics/javafx.scene=com.jfoenix',
-    '--add-opens=javafx.graphics/javafx.scene.text=com.jfoenix'
+    '--add-opens=javafx.graphics/javafx.scene.text=com.jfoenix',
+    '--add-opens=javafx.graphics/com.sun.javafx.text=com.jfoenix',
+    '--add-opens=javafx.controls/javafx.scene.control.skin=com.jfoenix',
+    '--add-opens=javafx.controls/javafx.scene.control=com.jfoenix',
+    '--add-opens=javafx.graphics/javafx.stage=com.jfoenix',
+    '--add-opens=javafx.base/com.sun.javafx.binding=com.jfoenix',
+    '--add-opens=javafx.base/com.sun.javafx.event=com.jfoenix',
+    '--add-opens=javafx.base/javafx.beans.property=com.jfoenix'
 ]
 
 
