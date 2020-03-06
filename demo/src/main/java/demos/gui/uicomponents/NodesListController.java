@@ -4,6 +4,7 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXNodesList;
 import javafx.fxml.FXML;
 
+
 public class NodesListController {
 
     @FXML
@@ -38,5 +39,6 @@ public class NodesListController {
         //Close list
         nodesList.animateList(false);
     }
+
 
 }

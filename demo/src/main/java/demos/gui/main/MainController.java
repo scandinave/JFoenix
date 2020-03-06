@@ -82,7 +82,7 @@ public final class MainController implements Initializable {
                 PopupHPosition.RIGHT,
                 -12,
                 15));
-        JremFXTooltip.setVisibleDuration(Duration.millis(3000));
+        JFXTooltip.setVisibleDuration(Duration.millis(3000));
         JFXTooltip.install(titleBurgerContainer, burgerTooltip, Pos.BOTTOM_CENTER);
 
         try {

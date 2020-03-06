@@ -23,7 +23,8 @@ compileJava {
             '--add-exports=javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix',
             '--add-exports=javafx.controls/com.sun.javafx.scene.control.inputmap=com.jfoenix',
             '--add-exports=javafx.base/com.sun.javafx.binding=com.jfoenix',
-            '--add-exports=javafx.base/com.sun.javafx.event=com.jfoenix'
+            '--add-exports=javafx.base/com.sun.javafx.event=com.jfoenix',
+            '--add-exports=javafx.graphics/com.sun.javafx.text=com.jfoenix'
     ]
 }
 
